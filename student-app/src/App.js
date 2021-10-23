@@ -9,11 +9,12 @@ import HomePage from './component/HomePage';
 import FinanceTracker from './component/FinanceTracker';
 import TaskTracker from './component/TaskTracker';
 import Schedule from './component/Schedule';
+import Welcome from './component/Welcome';
 
 function App() {
   return (
     <Router>
-      <div>
+      <div className='container'>
         <Nav />
         <Switch>
           <Route path="/" exact component={LandingPage}/>
@@ -23,6 +24,7 @@ function App() {
           <Route path="/FinanceTracker" component={FinanceTracker}/>
           <Route path="/TaskTracker" component={TaskTracker}/>
           <Route path="/Schedule" component={Schedule}/>
+          <Route path="/welcome" component={Welcome}/>
         </Switch>
                  
       </div>

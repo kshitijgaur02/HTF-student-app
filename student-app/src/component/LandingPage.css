@@ -1,0 +1,20 @@
+.containerLanding{
+    padding-top: 2em;
+    margin:0 auto;
+    display: block;
+}
+
+.rowbtn{
+    display: block;
+    padding-bottom: 10px;
+}
+
+.loginbtn{
+    display: block;
+    margin: auto;
+}
+
+.signupbtn{
+    display: block;
+    margin: auto;
+}

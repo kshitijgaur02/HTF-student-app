@@ -1,12 +1,12 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css'
-
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './Nav.css';
 
 
 function Nav() {
   return (
-    <nav>
-        <h3>Student App</h3>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+      <span class="navbar-brand mb-0 h1 NavText">Student App</span>
     </nav>
   )
 }
