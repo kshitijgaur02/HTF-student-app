@@ -8,12 +8,12 @@ function LandingPage() {
   return (
     <div className="container-fluid containerLanding">
       <div className='row rowbtn'>
-        <Link to='/login'>
+        <Link to='/login' style={{ textDecoration: 'none' }}>
             <button className='btn btn-primary loginbtn'>Login</button>
         </Link>
       </div>  
       <div className='row rowbtn'>
-        <Link to='/signup'>
+        <Link to='/signup' style={{ textDecoration: 'none' }}>
             <button className='btn btn-primary signupbtn'>Sign Up</button>
         </Link>
       </div>
