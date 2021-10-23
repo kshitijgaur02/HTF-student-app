@@ -8,7 +8,7 @@ import LandingPage from './component/LandingPage';
 import HomePage from './component/HomePage';
 import FinanceTracker from './component/FinanceTracker';
 import TaskTracker from './component/TaskTracker';
-import Schedule from './component/Schedule';
+import Calendar from './component/Calendar';
 import Welcome from './component/Welcome';
 
 
@@ -24,7 +24,7 @@ function App() {
           <Route path="/home" component={HomePage}/>
           <Route path="/FinanceTracker" component={FinanceTracker}/>
           <Route path="/TaskTracker" component={TaskTracker}/>
-          <Route path="/Schedule" component={Schedule}/>
+          <Route path="/Schedule" component={Calendar}/>
           <Route path="/welcome" component={Welcome}/>
         </Switch>
                  
