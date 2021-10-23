@@ -9,19 +9,19 @@ function HomePage() {
     <div className='container'>
       <div className='row'>
         <Link to='/FinanceTracker'>
-            <button className='btn btn-info btntext'>Finance Tracker</button>
+            <button className='btn btn-primary btntext'>Finance Tracker</button>
         </Link>
       </div>  
         
       <div className='row'>
         <Link to='/TaskTracker'>
-            <button className='btn btn-info btntext'>Task Tracker</button>
+            <button className='btn btn-primary btntext'>Task Tracker</button>
         </Link>
       </div>
 
       <div className='row'>
         <Link to='/Schedule'>
-            <button className='btn btn-info btntext'>Schedule</button>
+            <button className='btn btn-primary btntext'>Schedule</button>
         </Link>
       </div>  
 
