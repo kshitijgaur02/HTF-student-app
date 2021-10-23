@@ -7,8 +7,6 @@ import { Link } from 'react-router-dom';
 function HomePage() {
   return (
     <div className='container'>
-        <h1>Home</h1>
-
       <div className='row'>
         <Link to='/FinanceTracker'>
             <button className='btn btn-info btntext'>Finance Tracker</button>

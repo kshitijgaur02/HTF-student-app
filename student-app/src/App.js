@@ -15,7 +15,7 @@ import Welcome from './component/Welcome';
 function App() {
   return (
     <Router>
-      <div className='container'>
+      <div className='container-fluid'>
         <Nav />
         <Switch>
           <Route path="/" exact component={LandingPage}/>

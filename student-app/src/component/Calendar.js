@@ -81,6 +81,7 @@ class Calendar extends Component {
     return (
       <div style={styles.wrap}>
         <div style={styles.left}>
+          <h3>Month</h3>
           <DayPilotNavigator
             selectMode={"week"}
             showMonths={3}
@@ -95,6 +96,7 @@ class Calendar extends Component {
           />
         </div>
         <div style={styles.main}>
+          <h3>Week</h3>
         <DayPilotCalendar
           {...config}
           ref={component => {

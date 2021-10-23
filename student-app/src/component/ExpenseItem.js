@@ -21,7 +21,7 @@ const ExpenseItem = (props) =>{
                 <span className='me-3'>
                     <Badge pill bg="primary">${props.cost}</Badge>
                 </span>
-                <TiDelete size='1.5em' onClick={handleDeleteExpense}></TiDelete>
+                <TiDelete size='1.5em' onClick={handleDeleteExpense} style={{cursor: 'pointer'}}></TiDelete>
             </div>
         </li>
     );
