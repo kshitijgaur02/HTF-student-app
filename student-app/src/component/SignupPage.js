@@ -13,7 +13,7 @@ function SignupPage() {
               <input type="text" class="form-control" placeholder="First name"/>
             </div>
             <div class="col">
-              <label >First Name</label>
+              <label >Last Name</label>
              <input type="text" class="form-control" placeholder="Last name"/>
             </div>
           </div>

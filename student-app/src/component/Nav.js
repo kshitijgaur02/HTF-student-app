@@ -8,7 +8,7 @@ function Nav() {
   return (
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
       
-        <span class="navbar-brand mb-0 h1 NavText">Student App</span>
+        <h3 class="navbar-brand mb-0 h1 NavText">Student App</h3>
     </nav>
   )
 }
