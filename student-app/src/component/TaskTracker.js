@@ -10,24 +10,24 @@ function TaskTracker() {
   
   const [tasks, setTasks] = useState(
     [
-        {
-            id: 1,
-            text: 'Doctor Appointment',
-            day: 'Oct 15th at 2:30pm',
-            reminder: true,
-        },
-        {
-            id: 2,
-            text: 'Astro Club Meeting',
-            day: 'Oct 25th at 7:30pm',
-            reminder: true,
-        },
-        {
-            id: 3,
-            text: 'Grocery Shopping',
-            day: 'Oct 24th at 5:00pm',
-            reminder: false,
-        },
+        // {
+        //     id: 1,
+        //     text: 'Doctor Appointment',
+        //     day: 'Oct 15th at 2:30pm',
+        //     reminder: true,
+        // },
+        // {
+        //     id: 2,
+        //     text: 'Astro Club Meeting',
+        //     day: 'Oct 25th at 7:30pm',
+        //     reminder: true,
+        // },
+        // {
+        //     id: 3,
+        //     text: 'Grocery Shopping',
+        //     day: 'Oct 24th at 5:00pm',
+        //     reminder: false,
+        // },
     
 ])
 
